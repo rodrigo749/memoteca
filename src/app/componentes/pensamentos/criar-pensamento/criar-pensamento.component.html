@@ -33,9 +33,9 @@
     />
     <div
       class="mensagem__erro"
-      *ngIf="formulario.get('autoria')?.errors?.['required'] && formulario.get('autoria')?.touched"
+      *ngIf="formulario.get('autoria')?.errors?.['minusculo'] && formulario.get('autoria')?.touched"
     >
-      Autoria é obrigatório
+      Esse campo aceita apenas letras minusculas
     </div>
     <div
       class="mensagem__erro"
