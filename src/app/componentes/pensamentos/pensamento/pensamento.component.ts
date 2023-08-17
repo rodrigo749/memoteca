@@ -12,7 +12,8 @@ export class PensamentoComponent implements OnInit {
   id: 0,
   conteudo: 'I love angular',
   autoria: 'Rodrigo',
-  modelo: 'modelo3'
+  modelo: 'modelo3',
+  favorito: false
 }
 
 constructor() {}
@@ -26,6 +27,13 @@ larguraPensamento(): string {
     return 'pensamento-g'
   }
   return 'pensamento-p'
+}
+
+mudarIconeFavorito(): string {
+  if(this.pensamento.favorito == false) {
+    return 'inativo'
+  }
+  return 'ativo'
 }
 
 }

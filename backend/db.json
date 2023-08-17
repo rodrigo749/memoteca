@@ -4,43 +4,50 @@
       "id": 1,
       "conteudo": "Que bom que você veio 12",
       "autoria": "Rodrigo",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": true
     },
     {
       "id": 2,
       "conteudo": "Estudando Angular",
       "autoria": "Dev",
-      "modelo": "modelo2"
+      "modelo": "modelo2",
+      "favorito": false
     },
     {
       "id": 3,
       "conteudo": "Angular is the best language",
       "autoria": "Teste",
-      "modelo": "modelo3"
+      "modelo": "modelo3",
+      "favorito": true
     },
     {
       "conteudo": "teste",
       "autoria": "teste44",
       "modelo": "modelo1",
-      "id": 4
+      "id": 4,
+      "favorito": false
     },
     {
       "conteudo": "Formulário reativo",
       "autoria": "angular",
       "modelo": "modelo1",
-      "id": 5
+      "id": 5,
+      "favorito": false
     },
     {
       "conteudo": "aa31",
       "autoria": "aa313",
       "modelo": "modelo1",
-      "id": 6
+      "id": 6,
+      "favorito": false
     },
     {
       "conteudo": "teste",
       "autoria": "eeee",
       "modelo": "modelo3",
-      "id": 7
+      "id": 7,
+      "favorito": false
     }
   ]
 }
