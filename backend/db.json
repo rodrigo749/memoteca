@@ -12,7 +12,7 @@
       "conteudo": "Estudando Angular",
       "autoria": "Dev",
       "modelo": "modelo2",
-      "favorito": true
+      "favorito": false
     },
     {
       "id": 3,
@@ -48,6 +48,13 @@
       "modelo": "modelo3",
       "id": 7,
       "favorito": false
+    },
+    {
+      "conteudo": "teste123",
+      "autoria": "teste123",
+      "modelo": "modelo3",
+      "favorito": false,
+      "id": 8
     }
   ]
 }
